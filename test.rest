@@ -1,0 +1,19 @@
+POST http://localhost:3000 HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Work",
+    "description": "Save the geese"
+}
+
+###
+PUT http://localhost:3000/636913405edfba63eede01a5 HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "School",
+    "description": "Kill the geese"
+}
+
+###
+DELETE http://localhost:3000/6369032f5725744030dbdcfa
